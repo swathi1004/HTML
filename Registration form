@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+  </head>
+  <body bgcolor="lightblue">
+    <h1 align="left" ><font color="red">Registration Form </font></h1>
+   <form action="#" method="post/get">
+    <fieldset>
+        <legend> <i><b><u>STUDENT REGISTRATION FORM</legend></i></b></u>
+        <label><b>Please enter full name:</b></label><br>
+        <input type="text" name="fname" id="stdname" size="15" maxlength="14" placeholder="ex:xxxx xxxx " required><br>
+        <label><b> Enter email:</b></label><br>
+        <input type="email" name="email" id="emails" placeholder="ex:shdfgjs@sjd.com" required><br>
+        <label><b>Enter Your Password:</b></label><br>  
+        <input type="Password" name="pass" maxlength="6" placeholder="ex:xxxxxx"><br>
+        <label><b>Conform Password:</b></label><br>  
+        <input type="Password" name="conform password" maxlength="6" placeholder="ex:xxxxxx"><br>
+        <label><b>Enter Your Gender:</b></label><br>  
+        <input type="radio" id="gender" name="gender" value="male"/>Male  <br>  
+        <input type="radio" id="gender" name="gender" value="female"/>Female <br>    
+        <input type="radio" id="gender" name="gender" value="others"/>others <br>   
+        <label for="dob"><b>DOB:</b></label><br>
+		<input type="date" id="birthday" name="dob"><br>
+        <label><b>Hobbies:</b></label><br>
+        <input type="checkbox" id="cricket" name="Hobbies" value="singing"/>singing<br>
+        <input type="checkbox" id="cricket" name="Hobbies" value="reading books"/>reading books<br>
+        <input type="checkbox" id="cricket" name="Hobbies" value="Badminton"/>Badminton<br> 
+        <input type="checkbox" id="cricket" name="Hobbies" value="writing books"/>writing stories<br> 
+        
+        <label><b>Enter Your Address:</b></label><br>  
+		<textarea id="ta" name="address" rows="5" cols="20"></textarea></label><br>
+        <label><b>Mobile Number:</b></label><br>
+        <select name="country" id="register_country">  
+            <option value="india">+91 </option>  
+            <option value="pakistan">+92</option>  
+            <option value="china">+86</option>  
+            <option value="uk">+44 </option>  
+            <option value="canada">+1 </option>  
+            <option value="italy"> +39</option>  
+            <option value="other">other</option> 
+            <input type="text" maxlength="10" placeholder="ex:9xxxxxxxx0">  
+        </select>  <br><br>
+
+     <label><b>Choose Your Country:</b></label><br>
+			<select name="country" id="register_country">  
+				<option value="india">india</option>  
+				<option value="pakistan">pakistan</option>  
+				<option value="africa">africa</option>  
+				<option value="china">America</option>  
+				<option value="china">UK</option>  
+				<option value="china">china</option>  
+				<option value="other">other</option>  
+			</select>  <br><br>
+			<input type="submit" value="submit">
+			 <input type="button" onclick="alert('Hello World')" value="Click only">
+        
+
+			</fieldset>
+    </form> 
+   
+  </body>
+</html>
